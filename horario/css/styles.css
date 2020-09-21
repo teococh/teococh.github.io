@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing:  5px;
+  }
+table{
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+    align-items: center;
+    margin-top: 2em;
+}
+
+
+th, tr {
+    border: 1px solid;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+th#animacion {
+  height: 6rem;
+}
+th {
+  height: 2rem;
+}
+#animacion{
+  -webkit-transition: font-size 0.7s ease;
+  transition: font-size 0.7s ease;
+  padding-right: 4rem;
+  padding-left: 0.5rem;
+}
+#animacion:hover{
+  font-size: 1.1rem;
+}
+
+img{
+  width: 2rem;
+  align-self: top;
+}
+
+#dia {
+    margin: 0px;
+    text-decoration: solid;
+    border-bottom: solid;
+    width: 18%;
+}
+
+header{
+  background-color: rgb(176, 176, 176);
+  text-align: center;
+  padding: 1%;
+}
+
+footer{
+  position: flex;
+  
+}
+
+/* Asignaturas */
+.eie {
+    background-color: rgb(247, 152, 117);
+    background-image: url("../images/empresa.png");
+    background-position: 85% 50%;
+    background-size: 2rem;
+    background-repeat: no-repeat;
+}
+.dwec{
+    background-color: darkturquoise;
+    background-image: url("../images/codigo.png");
+    background-position: 85% 50%;
+    background-size: 2rem;
+    background-repeat: no-repeat;
+}
+.dwes{
+    background-color: rgb(69, 198, 69);
+    background-image: url("../images/archivos.png");
+    background-position: 85% 50%;
+    background-size: 2rem;
+    background-repeat: no-repeat;
+}
+.tutoria{
+    background-color: aquamarine;
+}
+.despliegue{
+    background-color: rgb(253, 197, 132);
+    background-image: url("../images/aplicacion.png");
+    background-position: 85% 50%;
+    background-size: 2rem;
+    background-repeat: no-repeat;
+}
+.diseño{
+    background-color: rgb(196, 113, 255);
+    background-image: url("../images/enumere-el-boton-de-interfaz-de-tres-elementos.png");
+    background-position: 85% 50%;
+    background-size: 2rem;
+    background-repeat: no-repeat;
+}
