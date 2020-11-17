@@ -2,6 +2,10 @@
     margin: 0px;
 }
 
+body {
+  position: relative;
+}
+
 table {
     border-collapse: collapse;
     border-spacing:  5px;
@@ -25,7 +29,7 @@ th, tr {
 th#animacion {
   height: 6rem;
 }
-th {
+tr {
   height: 2rem;
 }
 #animacion{
@@ -57,8 +61,8 @@ header{
 }
 
 footer{
-  position: flex;
-  
+  position: absolute;
+  bottom: 0px;
 }
 
 /* Asignaturas */
